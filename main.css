@@ -1,15 +1,10 @@
 h1{
     text-align: center;
     margin: auto;
+    color: red
 }
-#img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+.container{
+    text-align: center;
+    margin: auto;  
 }
 
-#One{
-    text-align: center;
-    margin: auto;
-}
