@@ -1,17 +1,41 @@
 h1{
     text-align: center;
     margin: auto;
-    color: red
+    color: gold;
 }
 .container{
     text-align: center;
     margin: auto;  
+    background-image: url(images/animal\ background.jpeg)
 }
 
 .background{
-  background-color: black  
+  background-color: blue;  
 }
 #background{
-background-color: black  
+background-color: gold;
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: right;
+}
 
+#table{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+#table2{
+width: 50%;
+height: 50%;
+float: right;
+padding-left: 10%;
+}
+
+.video{
+  position: relative;
+  z-index: 900;               
+  left: 0px;
+  top: 60px;
+  bottom: 60px;
 }
